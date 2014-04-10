@@ -13,7 +13,7 @@ gem 'activeadmin',  github: 'gregbell/active_admin'
 gem 'ransack',      github: 'ernie/ransack',         branch: 'rails-4'
 gem 'protected_attributes'
 gem 'friendly_id',  github: 'FriendlyId/friendly_id'
-
+gem 'metamagic'
 
 group :doc do
   gem 'sdoc', require: false
