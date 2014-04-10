@@ -1,4 +1,5 @@
 <h1>Posts#index</h1>
 <% @posts.each do |post| %>
+  <%= image_tag post.image_url(:thumb).to_s %> -
   <%= post.title %> - <%= link_to "Read Post", post %> </br>
 <% end %>
