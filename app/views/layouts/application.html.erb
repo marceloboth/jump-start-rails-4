@@ -2,7 +2,12 @@
 <html>
 <head>
   <title>Jumpstartrails</title>
-  <%= metamagic  %>
+
+  <%= metamagic title: "My default title",
+    description: "My default description.",
+    keywords: %w(ruby rails Ruby on Rails)
+  %>
+
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
