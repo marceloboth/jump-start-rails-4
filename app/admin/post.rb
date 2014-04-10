@@ -1,6 +1,10 @@
 ActiveAdmin.register Post do
   scope :rails
 
+  before_filter :only => [:show, :edit, :update, :destroy] do
+    @post = Post.friendly.find(params[:id])
+  end
+
   index do
     column :title
     column :slug

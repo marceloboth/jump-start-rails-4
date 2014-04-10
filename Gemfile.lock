@@ -1,4 +1,11 @@
 GIT
+  remote: git://github.com/FriendlyId/friendly_id.git
+  revision: 57baa3549a5d5b1ee0cc9b6a803c59d9de0e7d59
+  specs:
+    friendly_id (5.0.3)
+      activerecord (>= 4.0.0)
+
+GIT
   remote: git://github.com/ernie/ransack.git
   revision: 8009ae93e3e00325e41edd231b4b917c45a2c6c2
   branch: rails-4
@@ -179,6 +186,7 @@ DEPENDENCIES
   activeadmin!
   coffee-rails (~> 4.0.0)
   devise!
+  friendly_id!
   jbuilder (~> 1.2)
   jquery-rails
   pg
