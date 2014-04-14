@@ -17,6 +17,7 @@ gem 'metamagic'
 gem 'carrierwave'
 gem 'rmagick'
 gem 'fog'
+gem 'unf'
 
 group :doc do
   gem 'sdoc', require: false
