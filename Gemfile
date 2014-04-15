@@ -18,6 +18,7 @@ gem 'carrierwave'
 gem 'rmagick'
 gem 'fog'
 gem 'unf'
+gem 'bootstrap-sass', '2.3.2.0'
 
 group :doc do
   gem 'sdoc', require: false

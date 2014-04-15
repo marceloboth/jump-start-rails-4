@@ -19,7 +19,7 @@ GIT
 
 GIT
   remote: git://github.com/gregbell/active_admin.git
-  revision: 698f313fa253b0504f61598bfd6478dc34c10b9c
+  revision: ec4b6d186e40b9679444c26d143b09d2c89ef7f0
   specs:
     activeadmin (1.0.0.pre)
       arbre (~> 1.0)
@@ -31,13 +31,13 @@ GIT
       jquery-rails
       jquery-ui-rails
       kaminari (~> 0.15)
-      rails (>= 3.2, < 4.1)
+      rails (>= 3.2, <= 4.1)
       ransack (~> 1.0)
       sass-rails
 
 GIT
   remote: git://github.com/plataformatec/devise.git
-  revision: b0b18fb80508ae37a7460e1f6d1064adf9593cce
+  revision: 38e868dc79a6520306c5d581c46894839d0c5a7e
   specs:
     devise (3.2.4)
       bcrypt (~> 3.0)
@@ -77,6 +77,8 @@ GEM
       activesupport (>= 3.0.0)
     arel (4.0.2)
     bcrypt (3.1.7)
+    bootstrap-sass (2.3.2.0)
+      sass (~> 3.2)
     bourbon (3.1.8)
       sass (>= 3.2.0)
       thor
@@ -101,7 +103,7 @@ GEM
       fog-core (~> 1.21, >= 1.21.1)
       fog-json
       nokogiri (~> 1.5, >= 1.5.11)
-    fog-brightbox (0.0.1)
+    fog-brightbox (0.0.2)
       fog-core
       fog-json
     fog-core (1.21.1)
@@ -114,7 +116,7 @@ GEM
     fog-json (1.0.0)
       multi_json (~> 1.0)
     formatador (0.2.4)
-    formtastic (2.3.0.rc2)
+    formtastic (2.3.0.rc3)
       actionpack (>= 3.0)
     has_scope (0.6.0.rc)
       actionpack (>= 3.2, < 5)
@@ -145,7 +147,7 @@ GEM
     mini_portile (0.5.3)
     minitest (4.7.5)
     multi_json (1.9.2)
-    net-scp (1.1.2)
+    net-scp (1.2.0)
       net-ssh (>= 2.6.5)
     net-ssh (2.8.0)
     nokogiri (1.6.1)
@@ -198,7 +200,7 @@ GEM
       activesupport (>= 3.0)
       sprockets (~> 2.8)
     thor (0.19.1)
-    thread_safe (0.3.2)
+    thread_safe (0.3.3)
     tilt (1.4.1)
     treetop (1.4.15)
       polyglot
@@ -220,6 +222,7 @@ PLATFORMS
 
 DEPENDENCIES
   activeadmin!
+  bootstrap-sass (= 2.3.2.0)
   carrierwave
   coffee-rails (~> 4.0.0)
   devise!
